@@ -3,9 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Booki</title>
+    <link rel="stylesheet" href="css/main.css">
+    <!-- normalize.css cdn: -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
+    <!-- font awesome cdn: -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> 
+    <!-- google font raleway import: -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header id="header">
+        <nav id="nav">
+            <a href="index.html"><img src="images/logo/Booki.png" alt="Booki"></a>
+            <div id="nav-links">
+                <ul>
+                    <!-- needs links to Accom and Activities sections -->
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="#">Activities</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+    </header>
+    <main>
+        <div id="search">
+            <p>Find dream vac</p>
+            <p>Downtown or in nature</p>
+            <input type="text" placeholder="Search..">
+        </div>
+        <div id="filter">
+            <div id="filters">
+                Filters
+                <button>
+                    <i class="fa-solid fa-money-bill-1"></i>
+                    Budget
+                </button>
+                <button>
+                    <i class="fa-solid fa-people-group"></i>
+                    Family
+                </button>
+                <button>
+                    <i class="fa-solid fa-heart"></i>
+                    Romantic
+                </button>
+                <button>
+                    <i class="fa-solid fa-cat"></i>
+                    Pets allowed
+                </button>
+            </div>
+            <p>info blurb</p>
+        </div>
+        <div id="results">
+            <div id="accomodations">
+                <p>Accommodations in</p>
+            </div>
+            <div id="popular">
+                <p>Most Popular</p>
+            </div>
+        </div>
+        <div id="activities">
+            <p>Activities in</p>
+        </div>
+    </main>
+    <footer id="footer">
+        <nav id="about">
+            About
+            <a href="#">Site Map</a> 
+            <a href="#">General Terms and Conditions</a> 
+            <a href="#">Data and Privacy</a>
+        </nav>
+        <nav id="accommodations">
+            Our Accommodations
+            <a href="#">Quality Assessment</a> 
+            <a href="#">You have a hotel?</a> 
+        </nav>
+        <nav id="assistance">
+            Assistance
+            <a href="#">Help Desk</a> 
+            <a href="#">Contact Us</a> 
+        </nav>
+    </footer>
 </body>
 </html>
