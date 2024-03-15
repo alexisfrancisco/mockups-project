@@ -16,56 +16,60 @@
 </head>
 <body>
     <header id="header">
-        <nav id="nav">
+        <nav class="nav">
             <a href="index.html"><img src="images/logo/Booki.png" alt="Booki"></a>
-            <div id="nav-links">
+            <div class="nav-links">
                 <ul>
                     <!-- needs links to Accom and Activities sections -->
                     <li><a href="#">Accommodations</a></li>
                     <li><a href="#">Activities</a></li>
                 </ul>
             </div>
-            
         </nav>
     </header>
-    <main>
+    <main id="main">
+        <h3 class ="heading">Find a place for your dream vacation</h3>
+        <p class="subtitle">Downtown or in nature</p>
         <div id="search">
-            <p>Find dream vac</p>
-            <p>Downtown or in nature</p>
-            <input type="text" placeholder="Search..">
+            <i class="fa-solid fa-location-dot"></i>
+            <input id="search-bar" type="text" placeholder="Search..">
+            <div id="search-btn">Search</div>
         </div>
         <div id="filter">
             <div id="filters">
-                Filters
+                <b>Filters</b>
                 <button>
                     <i class="fa-solid fa-money-bill-1"></i>
-                    Budget
+                    <b class="low">Low cost</b>
                 </button>
                 <button>
                     <i class="fa-solid fa-people-group"></i>
-                    Family
+                    <b class="family">Family-friendly</b>
                 </button>
                 <button>
                     <i class="fa-solid fa-heart"></i>
-                    Romantic
+                    <b class="romantic">Romantic</b>
                 </button>
                 <button>
                     <i class="fa-solid fa-cat"></i>
-                    Pets allowed
+                    <b class="pets">Pets allowed</b>
                 </button>
             </div>
-            <p>info blurb</p>
+            <div class="info">
+                <i class="fa-solid fa-circle-info"></i>
+                <p>More than 500 accommodations are available in this city.</p>
+            </div>
         </div>
         <div id="results">
-            <div id="accomodations">
-                <p>Accommodations in</p>
+            <div id="accommodations">
+                <h3>Accommodations in</h3>
             </div>
             <div id="popular">
-                <p>Most Popular</p>
+                <h3>Most Popular</h3>
             </div>
         </div>
         <div id="activities">
-            <p>Activities in</p>
+            <h3>Activities in</h3>
         </div>
     </main>
     <footer id="footer">
@@ -75,7 +79,7 @@
             <a href="#">General Terms and Conditions</a> 
             <a href="#">Data and Privacy</a>
         </nav>
-        <nav id="accommodations">
+        <!-- <nav id="accommodations">
             Our Accommodations
             <a href="#">Quality Assessment</a> 
             <a href="#">You have a hotel?</a> 
@@ -83,7 +87,7 @@
         <nav id="assistance">
             Assistance
             <a href="#">Help Desk</a> 
-            <a href="#">Contact Us</a> 
+            <a href="#">Contact Us</a>  -->
         </nav>
     </footer>
 </body>
